@@ -1,0 +1,98 @@
+$myBackgroundColor: rgb(218, 170, 15);
+$myFontSize: 0.8rem;
+$myOutline: none;
+$myBackgroundColor2: rgb(0, 0, 0);
+$myColor:rgb(255, 255, 255);
+$myPadding:13px 30px;
+$mytext: uppercase;
+$myCursor:pointer;
+$myTextAlign: center;
+$myFontWeight: bold;
+$myPadding13: 13.5px;
+$myPadding2: 2px;
+$myPadding30:30px;
+$myTransition: 1s;
+$myMarginTop: 1cm;
+$myFontFamily:'Sen';
+$myFontStyle: normal;
+button{
+    font-size: $myFontSize;
+    font-weight: $myFontWeight;
+    outline: $myOutline;
+    border: $myOutline;
+    background-color:  $myBackgroundColor2;
+    color: $myColor;
+    padding: $myPadding;
+    text-transform: $mytext;
+    cursor: $myCursor;
+
+}
+button:hover{
+    background-color: $myBackgroundColor;
+}
+
+
+.container_tipa{
+    background-color: $myColor;
+}
+.price{
+    text-align: $myTextAlign;
+}
+.rusca{
+    text-align: $myTextAlign;
+}
+.kazakwa{
+    text-align: $myTextAlign;
+}
+.birnarse{
+    color: $myBackgroundColor2;
+    padding: $myPadding13;
+    font-weight: $myFontWeight;
+    cursor: $myCursor;
+}
+.birnarse:hover{
+    background: $myBackgroundColor;
+    transition: $myTransition;
+    color: $myColor;
+}
+.row1{
+    background: $myBackgroundColor;
+    padding: $myPadding2;
+}
+.row2{
+    border: $myPadding2 solid $myBackgroundColor;
+    color: $myBackgroundColor2;
+    padding: $myPadding30;
+    font-weight: $myFontWeight;
+    cursor: $myCursor;
+    font-size: $myPadding30;
+}
+.row2:hover{
+    background: $myBackgroundColor;
+    transition: $myTransition;
+    color: $myBackgroundColor2;
+}
+.row4{
+    margin-top: $myMarginTop;
+    font-size: $myPadding30;
+    text-align: $myTextAlign;
+}
+.row5{
+    font-style: $myFontStyle;
+    font-size: $myPadding13;
+    font-family: $myFontFamily;
+    text-align: $myTextAlign;
+  margin-top: $myMarginTop;
+}
+.row3{
+    color: $myBackgroundColor2;
+    padding: $myPadding13;
+    font-weight: $myFontWeight;
+    cursor: $myCursor;
+
+}
+.row3:hover{
+    background: $myBackgroundColor;
+    transition: $myTransition;
+    color: $myBackgroundColor2;
+}
